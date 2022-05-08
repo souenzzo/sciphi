@@ -1,0 +1,10 @@
+{:paths   ["src"]
+ :deps    {org.babashka/sci        {:mvn/version "0.3.5"}
+           com.wsscode/pathom3     {:mvn/version "2022.04.20-alpha"}
+           babashka/babashka.nrepl {:mvn/version "0.0.6"}}
+ :aliases {:dev {:extra-paths ["dev" "test"]
+                 :jvm-opts    ["-XX:-OmitStackTraceInFastThrow"
+                               "-Dclojure.core.async.go-checking=true"]
+                 :extra-deps  {org.clojure/clojure    {:mvn/version "1.11.1"}
+                               org.clojure/core.async {:mvn/version "1.5.648"}}}}}
+
