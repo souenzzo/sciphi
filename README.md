@@ -1,6 +1,6 @@
 # sciphi
 
-> Where pathom is everywhere
+> When pathom is everywhere
 
 This is a **experimental** project that aims to explore the posibilies of use [pathom](https://pathom3.wsscode.com/) in
 a language-wide level
@@ -30,7 +30,7 @@ Call the function with some missing arguments and see pathom doing its magic
 
 ```clojure
 (greet {::username "sciphi"})
-;; => "hello souenzzo"
+;; => "hello sciphi"
 (greet {::greet-prefix "olá"
         ::username     "sciphi"})
 ;; => "olá sciphi"
